@@ -178,7 +178,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.2</version>
+        <version>2.5.3</version>
         <configuration>
           <tagNameFormat>mattermost-@{project.version}</tagNameFormat>
         </configuration>
