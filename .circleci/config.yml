@@ -53,6 +53,3 @@ workflows:
   build:
     jobs:
       - "openjdk-8"
-      - "openjdk-9"
-      - "openjdk-10"
-      - "openjdk-11"
