@@ -95,11 +95,6 @@
       <artifactId>structs</artifactId>
       <version>1.20</version>
     </dependency>
-    <dependency>
-      <groupId>org.jenkins-ci.plugins</groupId>
-      <artifactId>ssh-slaves</artifactId>
-      <version>1.31.0</version>
-    </dependency>
 
     <dependency>
       <groupId>org.jenkins-ci.plugins.workflow</groupId>
