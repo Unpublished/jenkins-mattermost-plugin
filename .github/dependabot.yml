@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.jenkins-ci.plugins:plugin
+    versions:
+    - "4.15"
+    - "4.16"
+    - "4.17"
+  - dependency-name: org.jenkins-ci.plugins:junit
+    versions:
+    - "1.48"
